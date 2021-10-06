@@ -2,6 +2,7 @@
   "name": "react-styling-exercise",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://rok862.github.io/CSCI39HomeWork-4/",
   "dependencies": {
     "howler": "^2.2.3",
     "node-fetch": "^3.0.0",
