@@ -17,14 +17,11 @@ const Container = styled.div`
 
 class Screen extends Component {
   render() {
-    const { state:baseState } = this.props;
+    const { utilities:mathUtil } = this.props;
 
     const getEquation = () => {
-      const mathUtil = baseState.mathUtil;
       const value = mathUtil.GetPrintValue();
-      //mathUtil.Clear();
       return value;
-      //return `${first} ${operator} ${second}`;
     }
 
     const equation = <Equation value={getEquation()} />
